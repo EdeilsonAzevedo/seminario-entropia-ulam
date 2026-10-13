@@ -1,0 +1,15 @@
+# LaTeX auxiliares
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
