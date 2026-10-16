@@ -14,6 +14,7 @@ Autor: Edeilson Costa de Azevedo Filho.
 └── apostila/               # seção da apostila sobre o mapa de Pelikan
     ├── secao_pelikan.tex   # texto da seção (usar com \input{secao_pelikan})
     ├── preview_apostila.tex# documento mínimo para pré-visualizar a seção
+    ├── secao_pelikan.pdf   # seção compilada
     └── figs/               # figuras usadas na seção
 ```
 
