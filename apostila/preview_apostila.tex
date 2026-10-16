@@ -1,0 +1,17 @@
+% Arquivo só para pré-visualizar a seção; na apostila use \input{secao_pelikan}
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\IfFileExists{portuges.ldf}{\usepackage[brazil]{babel}}{\usepackage[english]{babel}\renewcommand{\figurename}{Figura}\renewcommand{\tablename}{Tabela}}
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{\usepackage{mathptmx}}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[hidelinks]{hyperref}
+\floatname{algorithm}{Algoritmo}
+\begin{document}
+\input{secao_pelikan}
+\end{document}
